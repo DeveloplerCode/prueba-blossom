@@ -27,3 +27,5 @@ Thumbs.db
 config.js
 /credentials
 /secrets
+
+/logs/*

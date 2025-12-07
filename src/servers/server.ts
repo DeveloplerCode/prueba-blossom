@@ -1,5 +1,5 @@
 import express, { Application } from 'express';
-import userRoutes from '../routes/searches';
+import searchRoutes from '../routes/searches';
 import cors from 'cors';
 
 import conexion from '../databases/connection';
@@ -7,14 +7,22 @@ import { config } from '../config/config';
 import { loggerMiddleware } from '../middlewares';
 import { connectRedis } from '../databases/redis';
 
-// ss
+import cron from 'node-cron';
+
+import { runCharacterUpdateTask } from '../services/CharacterUpdater'; // Asumo que es el nombre de la función
+
+
+// Importación de Swagger
+import swaggerUi from 'swagger-ui-express';
+import * as swaggerDocument from '../config/swagger.json';
 
 class Server {
 
     private app: Application;
     private port: string;
     private apiPaths = {
-        searches: '/v1/api/searches'
+        searches: '/v1/api/searches',
+        docs: '/docs'
     }
 
     constructor() {
@@ -26,6 +34,7 @@ class Server {
         this.redisConnection();
         this.middlewares();
         this.routes();
+        this.cronJobs();
     } 
 
     async dbConnection() {
@@ -72,9 +81,31 @@ class Server {
 
 
     routes() {
-        this.app.use( this.apiPaths.searches, userRoutes )
+
+        this.app.use( this.apiPaths.searches, searchRoutes )
+
+        this.app.use(
+            this.apiPaths.docs, 
+            swaggerUi.serve, 
+            swaggerUi.setup(swaggerDocument)
+        );
+
     }
 
+    cronJobs() {
+
+      
+        // 1. Programar la tarea
+        // cron.schedule(config.CRON_SCHEDULE_TIME, () => {
+        //     // La función que contiene la lógica de actualización
+        //     runCharacterUpdateTask(); 
+        // }, {
+        //     // Es buena práctica definir la zona horaria para evitar desfases
+        //     timezone: config.TIMEZONE // Ajústalo a tu zona horaria de preferencia
+        // });
+        
+
+    }
 
     listen() {
         this.app.listen( this.port, () => {

@@ -17,7 +17,7 @@ services:
     
     ports:
       # Mapea el puerto local 3000 al puerto 3000 interno del contenedor 
-      - "3001:3000" 
+      - "3000:3000" 
     volumes:
       # Monta el código fuente. Esto permite cambios en tiempo real.
       - .:/usr/src/app

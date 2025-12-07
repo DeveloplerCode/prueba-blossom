@@ -5,8 +5,7 @@ import { getSearch } from '../controllers/searchesController';
 const router = Router();
 
 
-router.get('/:id',    getSearch );
-
+router.get('/', getSearch );
 
 
 export default router;

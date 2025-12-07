@@ -1,26 +1,31 @@
 import { Request, Response } from 'express';
-import { json } from 'sequelize/types';
-import Search from '../models/Character';
+// import { searchCharacters } from '../graphql';
+import { ICharacterFilters } from '../commons/interfaces/Iservices';
+import rootResolver from '../graphql/resolvers';
 
+export const getSearch = async (req: Request, res: Response) => {
+    
+    // Extraemos los filtros directamente del query string
+    const { name, status, species, gender, origin } = req.query;
 
+    const filters: ICharacterFilters = {};
+    if (name) filters.name = String(name);
+    if (status) filters.status = String(status);
+    if (species) filters.species = String(species);
+    if (gender) filters.gender = String(gender);
+    if (origin) filters.origin = String(origin);
 
+    try {
+        const characters = await rootResolver.searchCharacters(filters);
 
-export const getSearch = async( req: Request , res: Response ) => {
+        return res.json(characters);
 
-    const { id } = req.params;
-
-    const usuario = await Search.findByPk( id );
-
-    if( usuario ) {
-        res.json(usuario);
-    } else {
-        res.status(404).json({
-            msg: `No existe un usuario con el id ${ id }`
-        });
+    } catch (error: any) {
+        console.error(error);
+        if (error.status) {
+            res.status(error.status).json({ msg: error.msg, errors: error.errors });
+        } else {
+            res.status(500).json({ msg: 'Ocurrió un error inesperado durante la búsqueda.' });
+        }
     }
-
-
-}
-
-
-
+};

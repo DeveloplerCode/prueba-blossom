@@ -208,3 +208,563 @@
             N/A
             ====================================================
             
+
+[2025-12-07T21:22:59.134Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:22:59.133Z] 
+            - Petición: GET /docs
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 301
+            - Tiempo de Respuesta: 4.454ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:22:59.145Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:22:59.145Z] 
+            - Petición: GET /docs/
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 4.380ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:22:59.558Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:22:59.558Z] 
+            - Petición: GET /docs/swagger-ui.css
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 12.355ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:22:59.646Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:22:59.646Z] 
+            - Petición: GET /docs/swagger-ui-standalone-preset.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 24.421ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:22:59.666Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:22:59.665Z] 
+            - Petición: GET /docs/swagger-ui-init.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 10.422ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:22:59.681Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:22:59.681Z] 
+            - Petición: GET /docs/swagger-ui-bundle.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 78.869ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:23:00.179Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:23:00.179Z] 
+            - Petición: GET /docs/favicon-32x32.png
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 2.486ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:23:02.930Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:23:02.930Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 5.566ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:24:53.466Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:24:53.465Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 22.120ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:24:53.558Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:24:53.558Z] 
+            - Petición: GET /favicon.ico
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 1.214ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:24:55.543Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:24:55.543Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 2.369ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:25:22.378Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:25:22.378Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 304
+            - Tiempo de Respuesta: 8.344ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:25:24.400Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:25:24.400Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 3.013ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:32:15.973Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:32:15.971Z] 
+            - Petición: GET /v1/api/searches?gender=Female
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 19.845ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:32:18.006Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:32:18.006Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 5.384ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:33:40.276Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:33:40.276Z] 
+            - Petición: GET /v1/api/searches?gender=Female
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 500
+            - Tiempo de Respuesta: 69.728ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:33:42.333Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:33:42.333Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 4.572ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:34:44.422Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:34:44.421Z] 
+            - Petición: GET /v1/api/searches?gender=Female
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 500
+            - Tiempo de Respuesta: 21.307ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:34:45.987Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:34:45.987Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 2.753ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:35:20.556Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:35:20.555Z] 
+            - Petición: GET /v1/api/searches?gender=Female
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 1174.099ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:35:22.118Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:35:22.117Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 3.311ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:46:22.386Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:46:22.383Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 22.858ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:46:23.798Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:46:23.798Z] 
+            - Petición: GET /v1/api/searches?gender=Female
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 304
+            - Tiempo de Respuesta: 703.951ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:46:25.469Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:46:25.469Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 2.962ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:48:42.613Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:48:42.612Z] 
+            - Petición: GET /v1/api/searches?gender=Female
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 500
+            - Tiempo de Respuesta: 110.722ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:48:44.215Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:48:44.215Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 9.184ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:55:19.912Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:55:19.912Z] 
+            - Petición: GET /v1/api/searches?gender=Female
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 1212.574ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:55:21.815Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:55:21.815Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 6.257ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:55:44.407Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:55:44.407Z] 
+            - Petición: GET /v1/api/searches?gender=Female
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 33.242ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:55:46.137Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:55:46.137Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 2.915ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:55:56.846Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:55:56.845Z] 
+            - Petición: GET /v1/api/searches?gender=Female
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 304
+            - Tiempo de Respuesta: 12.750ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:55:58.409Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:55:58.408Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 1.345ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:56:59.742Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:56:59.742Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 2.849ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:57:50.398Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:57:50.397Z] 
+            - Petición: GET /docs/
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 304
+            - Tiempo de Respuesta: 3.151ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:57:50.427Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:57:50.427Z] 
+            - Petición: GET /docs/swagger-ui-bundle.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 304
+            - Tiempo de Respuesta: 4.023ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:57:50.436Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:57:50.436Z] 
+            - Petición: GET /docs/swagger-ui-init.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 4.999ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:57:50.429Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:57:50.429Z] 
+            - Petición: GET /docs/swagger-ui-standalone-preset.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 304
+            - Tiempo de Respuesta: 3.315ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:57:50.425Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:57:50.425Z] 
+            - Petición: GET /docs/swagger-ui.css
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 304
+            - Tiempo de Respuesta: 2.774ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:57:52.221Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:57:52.220Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 3.052ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T21:58:03.785Z] [INFO]
+
+            ====================================================
+            [2025-12-07T21:58:03.785Z] 
+            - Petición: GET /v1/api/searches?gender=Male
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 200
+            - Tiempo de Respuesta: 1600.690ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            

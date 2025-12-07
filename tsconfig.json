@@ -19,7 +19,16 @@
     "strict": true,
     
     // Omite la comprobación de tipos de los archivos de declaración (.d.ts) de las bibliotecas importadas.
-    "skipLibCheck": true
+    "skipLibCheck": true,
+
+    // 🚨 1. ESENCIAL: Habilitar la característica experimental de decoradores
+    "experimentalDecorators": true, 
+    
+    // 🚨 2. NECESARIO: Habilitar la emisión de metadatos de tipos para decoradores
+    "emitDecoratorMetadata": true,
+
+    "resolveJsonModule": true,
+
   },
   "include": [
     "src/**/*.ts" // Esto incluye recursivamente todos los archivos .ts dentro de 'src/'
