@@ -166,3 +166,45 @@
             N/A
             ====================================================
             
+
+[2025-12-07T13:55:35.531Z] [INFO]
+
+            ====================================================
+            [2025-12-07T13:55:35.528Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 17.836ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T13:56:38.294Z] [INFO]
+
+            ====================================================
+            [2025-12-07T13:56:38.291Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 22.818ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T13:56:40.387Z] [INFO]
+
+            ====================================================
+            [2025-12-07T13:56:40.385Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 2.621ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            

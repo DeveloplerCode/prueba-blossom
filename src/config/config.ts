@@ -16,7 +16,7 @@ const envSchema = Joi.object({
     REDIS_URL: Joi.string().required(), 
 
     // Variable con VALOR POR DEFECTO. Si no está en .env, usa 3000.
-    PORT: Joi.number().integer().default(3000), 
+    PORT: Joi.number().integer().default(3001), 
 
     // Variable opcional. No tiene por defecto, pero no es obligatoria.
     LOG_LEVEL: Joi.string().valid('info', 'warn', 'error').optional(),
