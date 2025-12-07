@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // Especifica la versión de ECMAScript de salida para el código compilado (e.g., ES2020 para características modernas).
+    "target": "ES2020", 
+    
+    // Especifica el sistema de módulos que se debe usar en el código compilado (e.g., 'commonjs' para Node.js).
+    "module": "commonjs",
+    
+    // Define el directorio de salida donde se colocarán los archivos JavaScript compilados.
+    "outDir": "dist",
+    
+    // Define el directorio raíz que contiene los archivos fuente de TypeScript (.ts).
+    "rootDir": "src",
+    
+    // Permite la interoperabilidad con módulos CommonJS para importaciones por defecto (import * as X from "mod" se convierte en import X from "mod").
+    "esModuleInterop": true,
+    
+    // Habilita un amplio conjunto de comprobaciones de tipo estrictas (altamente recomendado).
+    "strict": true,
+    
+    // Omite la comprobación de tipos de los archivos de declaración (.d.ts) de las bibliotecas importadas.
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts" // Esto incluye recursivamente todos los archivos .ts dentro de 'src/'
+  ]
+}

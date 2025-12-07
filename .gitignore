@@ -1,0 +1,29 @@
+# Dependencias de paquetes
+/node_modules
+/jspm_packages
+
+# Archivos de caché
+.npm
+.yarn-cache
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de compilación o de "build" (si usas TypeScript, Babel, etc.)
+/dist
+/build
+/out
+/coverage
+
+# Archivos temporales o de OS
+.DS_Store
+Thumbs.db
+
+# Información sensible/Credenciales (¡MUY importante!)
+.env
+.env.*
+config.js
+/credentials
+/secrets

@@ -1,0 +1,168 @@
+
+[2025-12-07T04:24:00.876Z] [INFO]
+
+            ====================================================
+            [2025-12-07T04:24:00.873Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::1
+            - Código de Estado: 304
+            - Tiempo de Respuesta: 17.809ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T04:24:08.097Z] [INFO]
+
+            ====================================================
+            [2025-12-07T04:24:08.096Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::1
+            - Código de Estado: 304
+            - Tiempo de Respuesta: 4.313ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T06:09:28.770Z] [INFO]
+
+            ====================================================
+            [2025-12-07T06:09:28.767Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 12.240ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T06:09:30.819Z] [INFO]
+
+            ====================================================
+            [2025-12-07T06:09:30.818Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 2.598ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T06:14:15.802Z] [INFO]
+
+            ====================================================
+            [2025-12-07T06:14:15.800Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 18.332ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T06:14:17.422Z] [INFO]
+
+            ====================================================
+            [2025-12-07T06:14:17.416Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 1.592ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T06:15:27.430Z] [INFO]
+
+            ====================================================
+            [2025-12-07T06:15:27.428Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 7.800ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T06:15:29.005Z] [INFO]
+
+            ====================================================
+            [2025-12-07T06:15:29.004Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 1.716ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T06:27:47.628Z] [INFO]
+
+            ====================================================
+            [2025-12-07T06:27:47.622Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 32.959ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T06:27:49.169Z] [INFO]
+
+            ====================================================
+            [2025-12-07T06:27:49.168Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 1.174ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T06:29:08.031Z] [INFO]
+
+            ====================================================
+            [2025-12-07T06:29:08.030Z] 
+            - Petición: GET /v1/api/searches
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 4.599ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-07T06:29:09.573Z] [INFO]
+
+            ====================================================
+            [2025-12-07T06:29:09.572Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 0.979ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            

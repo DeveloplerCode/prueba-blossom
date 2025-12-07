@@ -1,0 +1,106 @@
+
+
+services:
+  # ----------------------------------------------------
+  # 1. Servicio de la Aplicación Node.js (APP)
+  # ----------------------------------------------------
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: node-app
+    container_name: node-app
+    restart: unless-stopped
+    ports:
+      # Mapea el puerto local 3000 al puerto 3000 interno del contenedor 
+      - "3001:3000" 
+    volumes:
+      # Monta el código fuente. Esto permite cambios en tiempo real.
+      - .:/usr/src/app
+      # Evita que el volumen monte node_modules desde la máquina anfitriona
+      - /usr/src/app/node_modules 
+    environment:
+      # Variables de la aplicación Node.js
+      PORT: ${PORT}
+      DB_DIALECT: ${DB_DIALECT}
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      # Importante: Usamos el nombre del servicio (mysql)
+      DB_HOST: mysql 
+      DB_PORT: 3306
+      # Importante: Usamos el nombre del servicio (redis)
+      REDIS_URL: redis://redis:6379  
+    networks:
+      - app-network
+    depends_on:
+      - mysql
+      - redis
+
+  # ----------------------------------------------------
+  # 2. Servicio de Base de Datos (MySQL)
+  # ----------------------------------------------------
+  mysql:
+    image: mysql:8.4.3 # Versión de MySQL
+    container_name: mysql_db
+    restart: unless-stopped
+    environment:
+      # Variables usadas para inicializar la base de datos
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD} # Contraseña para el usuario root
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - app-network
+
+  # ----------------------------------------------------
+  # 3. Servicio de Caché/Queue (Redis)
+  # ----------------------------------------------------
+  redis:
+    image: redis:6.2-alpine # Imagen ligera de Redis
+    container_name: redis_cache
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data 
+    networks:
+      - app-network
+      
+  # ----------------------------------------------------
+  # 4. Servicio de phpMyAdmin
+  # ----------------------------------------------------
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:5.2 # Imagen oficial y estable
+    container_name: phpmyadmin_tool
+    restart: unless-stopped
+    ports:
+      # Puerto de acceso: 8080 en tu máquina local, mapeado al puerto interno 80
+      - "8080:80" 
+    environment:
+      # Usa el nombre del servicio de MySQL
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      # Usa las variables de entorno para las credenciales
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD} 
+    networks:
+      - app-network
+    depends_on:
+      - mysql
+
+# ----------------------------------------------------
+# 5. Redes y Volúmenes
+# ----------------------------------------------------
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mysql_data:
+    driver: local
+  redis_data:
+    driver: local
