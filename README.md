@@ -1,7 +1,3 @@
-
-
-
-
 # 🚀 Rick and Morty Character API
 
 Este proyecto implementa una API moderna y robusta utilizando **Node.js, Express y GraphQL**. Su objetivo es buscar y sincronizar datos de personajes de la API externa de Rick y Morty, empleando una arquitectura avanzada con bases de datos relacionales, caché y tareas programadas.
@@ -24,15 +20,19 @@ Este proyecto implementa una API moderna y robusta utilizando **Node.js, Express
 
 Para ejecutar este proyecto, necesitas tener instalado:
 
-1.  **Node.js** (v18+ recomendado).
-2.  **Docker** y **Docker Compose** (para ejecutar MySQL y Redis).
-3.  **Sequelize CLI** (instalación global: `npm install -g sequelize-cli`).
+
+1.  **Docker** y **Docker Compose** (imprescindible para los servicios de MySQL y Redis)
+
+Paso 1: Descargar el Proyecto
+git clone [https://github.com/DeveloplerCode/prueba-blossom.git](https://github.com/DeveloplerCode/prueba-blossom.git)
+cd prueba-blossom
+
 
 ### 1. Variables de Entorno (`.env`)
 
-Crea un archivo `.env` en la raíz del proyecto con la configuración de Docker para los servicios de base de datos y caché:
+Crea un archivo `.env` en la raíz del proyecto (copia y pega el contenido de  `template.env`) con la siguiente configuración:
 
-```env
+``` env
 # SERVER CONFIG
 PORT=4000
 
@@ -44,4 +44,16 @@ DB_USER=root
 DB_PASSWORD=secret
 
 # REDIS CONFIG
-REDIS_URL=redis://redis_cache:6379
+REDIS_URL=redis://redis_cache:6379 
+```
+
+Paso 2: en power shell windows ejecutar el comando dentro del proyecto ``` docker compose up --build ```
+
+Paso 3: si esta usando docker desktop puede mirar los multistage
+
+Paso 4: al generar el comando el codigo de las migraciones genera se automaticamente
+
+paso 5: swager http://localhost:3000/docs/ si la data no esta en cache hace la peticion al api  guarda en la db y mysql y redis 
+
+
+

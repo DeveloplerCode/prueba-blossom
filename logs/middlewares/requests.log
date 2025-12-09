@@ -768,3 +768,45 @@
             N/A
             ====================================================
             
+
+[2025-12-08T23:10:26.354Z] [INFO]
+
+            ====================================================
+            [2025-12-08T23:10:26.350Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 29.760ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-08T23:19:04.334Z] [INFO]
+
+            ====================================================
+            [2025-12-08T23:19:04.334Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 5.026ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
+
+[2025-12-09T02:16:47.485Z] [INFO]
+
+            ====================================================
+            [2025-12-09T02:16:47.473Z] 
+            - Petición: GET /sw.js
+            - IP Cliente: ::ffff:172.19.0.1
+            - Código de Estado: 404
+            - Tiempo de Respuesta: 182.734ms
+            - User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+            - Cuerpo de la Petición: 
+            N/A
+            ====================================================
+            
